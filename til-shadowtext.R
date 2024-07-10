@@ -5,12 +5,10 @@ library(tidyverse)
 library(shadowtext)
 library(scales)
 
-
 # Import Data -------------------------------------------------------------
 
 population_projection <-
   read_rds("population_projection.rds")
-
 
 # Create Function ---------------------------------------------------------
 
@@ -85,7 +83,6 @@ population_projection_plot(
       label = pct_formatted
     )
   )
-
 
 # Plot Stamford -----------------------------------------------------------
 
